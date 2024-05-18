@@ -28,3 +28,11 @@ IansJqueryToolbox.DynamicEventControl.delegateEvent = function(selector, event_t
     // noinspection JSUnresolvedFunction
     $(document).on(delegation, selector );
 }
+
+
+
+// Create Input Mask Utility if it does not exist
+if( typeof IansJqueryToolbox.InputMaskUtility === 'undefined' || IansJqueryToolbox.InputMaskUtility === null || IansJqueryToolbox.InputMaskUtility === false){
+    IansJqueryToolbox.InputMaskUtility = {};
+}
+
