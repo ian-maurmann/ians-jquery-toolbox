@@ -77,3 +77,8 @@ IansJqueryToolbox.InputMaskUtility.applyCurrencyMask = function(element){
     // Update the field value
     element.value = formatted_string;
 };
+
+// Create Base64 Utility if it does not exist
+if( typeof IansJqueryToolbox.Base64Utility === 'undefined' || IansJqueryToolbox.Base64Utility === null || IansJqueryToolbox.Base64Utility === false){
+    IansJqueryToolbox.Base64Utility = {};
+}
