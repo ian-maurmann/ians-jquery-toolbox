@@ -1,11 +1,13 @@
 // noinspection ES6ConvertVarToLetConst
 
+// Create Toolbox if it does not exist
 // noinspection JSUnusedAssignment
 if( typeof IansJqueryToolbox === 'undefined' || IansJqueryToolbox === null || IansJqueryToolbox === false){
     // noinspection SpellCheckingInspection
     var IansJqueryToolbox = {};
 }
 
+// Create Dynamic Event Control if it does not exist
 if( typeof IansJqueryToolbox.DynamicEventControl === 'undefined' || IansJqueryToolbox.DynamicEventControl === null || IansJqueryToolbox.DynamicEventControl === false){
     IansJqueryToolbox.DynamicEventControl = {};
 }
